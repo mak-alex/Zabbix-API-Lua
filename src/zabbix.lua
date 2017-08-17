@@ -23,7 +23,7 @@ local ltn12 = require'ltn12'
 local cjson = require'cjson'
 
 local Zabbix = {
-    Log = require'lib.Log',
+    Log = require'src.Log',
     _request = {
         jsonrpc = '2.0',
         method = nil,

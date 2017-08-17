@@ -1,6 +1,7 @@
 #!/usr/bin/env lua
+require'luarocks.loader'
 -- создаем новый инстанс с нужным нам IP адресом, verbose (bool), debug (bool) 
-local zabbix = require'lib.zabbix':new('10.244.244.139', true, false)
+local zabbix = require'zabbix':new('10.244.244.139', true, false)
 
 -- вводим логин/пароль и авторизовываемся
 zabbix:set_credentials{'Admin', 'zabbix'}.login()
