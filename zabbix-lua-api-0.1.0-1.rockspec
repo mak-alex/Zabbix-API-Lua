@@ -2,7 +2,7 @@ package = "zabbix-lua-api"
 version = "0.1.0-1"
 source = {
    url = "https://bitbucket.org/enlab/zabbix-lua-api/get/master.tar.gz",
-   dir = 'enlab-zabbix-lua-api-00387578071a'
+   dir = 'enlab-zabbix-lua-api-bb281ea5574e'
 }
 description = {
    summary = "Zabbix API Wrapper",
